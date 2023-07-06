@@ -32,7 +32,7 @@
   font-size: 1.5em;
   font-weight: 400;
   padding-bottom: 60px;
-  border-bottom: 1px solid rgb(30, 87, 40);
+  border-bottom: 1px solid #1e5728;
   text-align: center;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .btn:hover {
-  color: rgb(251, 149, 15);
+  color: #fb950f;
   cursor: pointer;
   transform: translateY(-3px);
 }

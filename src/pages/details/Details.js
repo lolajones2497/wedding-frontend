@@ -8,9 +8,14 @@ import logo from "../../images/logo.png";
 
 export const QnA = [
   {
-    question: "When & Where?",
+    question: "When?",
     answer:
-      "March 8, 2024 at 5pm. Please arrive at 4:30pm to leave time for parking and walking into the venue. The home page includes a detail itinerary for the day. The ceremony and reception will be held outdoors at the Meadows at Schnepf farms. Located at 22601 E Cloud Rd, Queen Creek, AZ 85142",
+      "The wedding will take place on March 8, 2024, at 5:00 PM. We kindly request that you arrive at 4:30 PM to allow ample time for parking and walking into the venue. For a detailed itinerary of the day's events, please refer to the home page. ",
+  },
+  {
+    question: "Where?",
+    answer:
+      "The ceremony and reception will take place outdoors at the Meadows at Schnepf Farms, a venue nestled among the serene pine trees, located at 22601 E Cloud Rd, Queen Creek, AZ 85142.",
   },
   {
     question: "What Should I Wear?",
@@ -19,22 +24,22 @@ export const QnA = [
   {
     question: "Will there be food?",
     answer:
-      "Yes! There will be the option between a grilled italian herb chicken entree versus a roasted pork tenderloin entree. When you RSVP, please let us know which entree you prefer!",
+      "Yes! We offer a choice between a grilled Italian herb chicken entree and a roasted pork tenderloin entree. When you RSVP, please let us know which entree you prefer!",
   },
   {
     question: "Kids?",
     answer:
-      "Yes, children are welcome to attend. Please add them to your RSVP submission. ",
+      "Yes, children are welcome to attend. Please remember to include them in your RSVP submission. ",
   },
   {
     question: "Can I make a speech?",
     answer:
-      "If you'd like to make a special speech, please contact Lola or Curt directly before the wedding. ",
+      "If you'd like to make a special speech, please reach out to Lola or Curt directly before the wedding. ",
   },
   {
-    question: "Coming from out fo the state?",
+    question: "Coming from out of the state? ",
     answer:
-      "We really appreciate you traveling to join us! The closest hotel near the venue is the Hampton Inn in Queen Creek. It is roughly a 15 minute drive from the venue. If you need help with reservation contact Curt or Lola! ",
+      "We truly appreciate you traveling to join us! The Hampton Inn in Queen Creek is the closest hotel to the venue, located approximately a 15-minute drive away. If you need any assistance with reservations, please feel free to reach out to Curt or Lola! ",
   },
 ];
 
