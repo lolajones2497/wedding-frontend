@@ -1,0 +1,131 @@
+.footer {
+  background-color: rgb(30, 87, 40);
+  width: auto;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  user-select: none;
+}
+
+.right {
+  background-color: rgb(30, 87, 40);
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.left {
+  background-color: rgb(30, 87, 40);
+}
+
+.logo {
+  background-color: rgb(30, 87, 40);
+  width: auto;
+  padding-left: 80px;
+  height: 250px;
+  padding-top: 10px;
+}
+
+.questions {
+  background-color: rgb(30, 87, 40);
+  width: auto;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding-right: 200px;
+  margin-top: 20px;
+}
+
+.answer {
+  background-color: rgb(30, 87, 40);
+  width: auto;
+  font-weight: 300;
+  font-size: 1.3em;
+  padding-right: 207px;
+}
+
+.faq {
+  font-family: "Dancing Script", cursive, "Inter", sans-serif, "Roboto";
+  font-weight: 500;
+  font-size: 1.4em;
+  background-color: rgb(30, 87, 40);
+  text-decoration: none;
+  color: rgb(251, 149, 15);
+}
+
+.faq:hover {
+  color: black;
+  cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+  .right {
+    align-items: flex-start;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .footer {
+    height: 200px;
+  }
+  .logo {
+    padding-top: 0px;
+    margin: 0;
+    height: 180px;
+  }
+  .questions {
+    padding-right: 50px;
+  }
+  .answer {
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 950px) {
+  .questions {
+    font-size: 1.1em;
+  }
+  .answer {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-left: 0;
+    padding-left: 10px;
+    height: 140px;
+  }
+  .questions {
+    font-size: 1em;
+    padding: 0;
+  }
+  .answer {
+    font-size: 0.9em;
+    padding: 0;
+  }
+}
+
+@media (max-width: 570px) {
+  .footer {
+    height: 130px;
+  }
+  .logo {
+    height: 100px;
+  }
+  .questions {
+    font-size: 0.8em;
+    padding: 0 20px 0 0;
+    margin: 0;
+  }
+  .answer {
+    font-size: 0.7em;
+    padding: 0 20px 0 0;
+    margin: 0;
+  }
+}

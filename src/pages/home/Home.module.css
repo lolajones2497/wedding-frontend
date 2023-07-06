@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif, "Roboto";
+}
+.intro {
+  max-width: 65%;
+  margin: auto;
+  user-select: none;
+  text-align: center;
+}
+
+.heading {
+  font-family: "Dancing Script", cursive, "Inter", sans-serif, "Roboto";
+  margin-top: 70px;
+  font-size: 5.9em;
+  font-weight: 700;
+  color: rgb(30, 87, 40);
+}
+
+.subheading {
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.under {
+  line-height: 1.5em;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgb(30, 87, 40);
+  text-align: center;
+}
+
+.btn {
+  color: #fff;
+  border: 2px solid rgb(30, 87, 40);
+  border-radius: 8%;
+  padding: 7px 15px;
+  background-color: rgb(30, 87, 40);
+  align-items: center;
+  font-size: 2.2rem;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  color: rgb(251, 149, 15);
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+.time {
+  margin-top: 50px;
+  max-width: 650px;
+  max-height: 750px;
+}
+
+.timeline {
+  max-width: 65%;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(30, 87, 40);
+}
+
+.schnepf {
+  max-width: 70%;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.location {
+  margin-top: 40px;
+  max-width: 550px;
+  max-height: 350px;
+}
+
+.ceremony {
+  margin-top: 40px;
+  max-width: 550px;
+  max-height: 350px;
+}
+
+.address {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  user-select: none;
+}
+
+h7 {
+  line-height: 1.6em;
+  font-size: 1.5em;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 400;
+}
+
+@media (max-width: 1510px) {
+  .ceremony,
+  .location {
+    width: 450px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .ceremony,
+  .location {
+    width: 400px;
+    height: 250px;
+  }
+  .under {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1150px) {
+  .ceremony,
+  .location {
+    width: 330px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 1075px) {
+  .heading {
+    font-size: 5em;
+    width: 100%;
+  }
+  .subheading {
+    font-size: 2.2em;
+  }
+  .under {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 950px) {
+  .heading {
+    font-size: 4.5em;
+  }
+  .subheading {
+    font-size: 1.8em;
+    margin-top: 30px;
+  }
+  .under {
+    font-size: 1.1em;
+  }
+  .btn {
+    font-size: 1.8rem;
+  }
+  .time {
+    max-width: 550px;
+    max-height: 650px;
+  }
+  .ceremony,
+  .location {
+    width: 280px;
+    height: 200px;
+  }
+  h7 {
+    font-size: 1.2em;
+    width: 100%;
+  }
+}
+
+@media (max-width: 805px) {
+  .schnepf {
+    width: 100%;
+  }
+  .ceremony,
+  .location {
+    width: 240px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 780px) {
+  .heading {
+    margin-top: 30px;
+    font-size: 3.5em;
+  }
+  .subheading {
+    font-size: 1.4em;
+  }
+  .under {
+    font-size: 1em;
+    padding-bottom: 40px;
+  }
+  .btn {
+    font-size: 1.4rem;
+  }
+  .time {
+    max-width: 450px;
+    max-height: 550px;
+  }
+}
+
+@media (max-width: 700px) {
+  .ceremony,
+  .location {
+    margin-top: 0;
+    width: 210px;
+    height: 160px;
+  }
+  h7 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 2.7em;
+  }
+  .subheading {
+    font-size: 1.1em;
+  }
+  .under {
+    font-size: 0.8em;
+    padding-bottom: 30px;
+  }
+  .btn {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  .time {
+    max-width: 350px;
+    max-height: 450px;
+  }
+  .location {
+    display: none;
+  }
+  .address {
+    width: 100%;
+    justify-content: center;
+  }
+  .ceremony {
+    width: 250px;
+    height: 180px;
+  }
+  h7 {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 570px) {
+  .heading {
+    padding-top: 20px;
+    font-size: 1.8em;
+  }
+  .subheading {
+    font-size: 0.9em;
+  }
+  .under {
+    font-size: 0.7em;
+    padding-bottom: 20px;
+  }
+  .btn {
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+  .time {
+    max-width: 300px;
+    max-height: 400px;
+  }
+  .ceremony {
+    width: 230px;
+    height: 170px;
+  }
+  h7 {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 450px) {
+  .time {
+    max-width: 250px;
+    max-height: 350px;
+  }
+}

@@ -1,0 +1,95 @@
+.contain {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.top {
+  font-family: "Dancing Script", cursive, "Inter", sans-serif, "Roboto";
+  font-size: 4.8em;
+  font-weight: 700;
+  text-align: left;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  color: rgb(30, 87, 40);
+}
+
+.story {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 1.3em;
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+.story:last-child {
+  margin-bottom: 100px;
+}
+
+.target,
+.knot {
+  margin: 10px 80px 100px 80px;
+  width: 220px;
+  height: 180px;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  border-radius: 1%;
+  cursor: pointer;
+}
+
+.target:hover,
+.knot:hover {
+  border: 1.5px solid rgba(0, 0, 0, 0.67);
+  transform: scale(1.05);
+}
+
+@media (max-width: 1450px) {
+  .contain {
+    width: 70%;
+  }
+}
+
+@media (max-width: 990px) {
+  .top {
+    font-size: 3.1em;
+  }
+  .story {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 850px) {
+  .target,
+  .knot {
+    width: 190px;
+    height: 160px;
+    margin: 10px 40px 100px 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  .target,
+  .knot {
+    width: 150px;
+    height: 110px;
+    margin: 10px 40px 100px 40px;
+  }
+}
+
+@media (max-width: 570px) {
+  .top {
+    font-size: 1.7em;
+  }
+  .story {
+    font-size: 0.9em;
+  }
+  .story:last-child {
+    margin-bottom: 50px;
+  }
+  .target,
+  .knot {
+    width: 130px;
+    height: 100px;
+    margin: 10px 40px 100px 40px;
+  }
+}
