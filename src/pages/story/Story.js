@@ -58,6 +58,7 @@ import imgSixtysix from "../../images/imgSixtysix.jpeg";
 import imgSixtyseven from "../../images/imgSixtyseven.jpeg";
 import imgSixtyeight from "../../images/imgSixtyeight.jpeg";
 import imgSixtynine from "../../images/imgSixtynine.jpeg";
+import imgSeventy from "../../images/imgSeventy.jpeg";
 
 const images = [
   { photo: imgOne },
@@ -116,6 +117,7 @@ const images = [
   { photo: imgSixtyseven },
   { photo: imgSixtyeight },
   { photo: imgSixtynine },
+  { photo: imgSeventy },
 ];
 
 export default function Story() {
@@ -125,17 +127,18 @@ export default function Story() {
         <h5 className={styles.top}>Origin Story</h5>
         <h4 className={styles.story}>
           The story started on a hot summer day when Curt was walking through
-          the grocery store... Just kidding. It was April and Lola had no idea
-          they were going on a date. When she entered the resturant she soon
-          figured out that Curt infact felt the same way as her. He was wearing
-          a tie and aegerly waiting to show her the world of eating sushi. Fast
-          forward 7 years later and Curt purposes on their favorite hike by the
-          Tonto Natural Bridge waterfall. The end.
+          the grocery store... Just kidding! It was April, and Lola had no idea
+          they were going on a date. When she entered the restaurant, she soon
+          figured out that Curt, in fact, felt the same way. He was wearing a
+          tie and eagerly waiting to introduce her to the world of eating sushi.
+          Fast forward 7 years later, Curt proposes on their favorite hike by
+          the Tonto Natural Bridge waterfall. The end.
           <br></br>
           <br></br>
-          Okay, there is a lot more to that story than just that. So, here are
-          some of our favorite pictures of adventures we've taken together along
-          the way (somewhat in chronological order).
+          Okay, there is a lot more to the story than just that, but how would I
+          tell a story that is 7 years long without making a whole trilogy? So
+          instead, here are some of our favorite pictures of adventures we've
+          taken together along the way (somewhat in chronological order).
         </h4>
       </div>
       <div className={styles.pictures}>
